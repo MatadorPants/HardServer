@@ -1,5 +1,42 @@
 groups:
-  default:
+  BlockE:
     default: true
+    prefix: '&7[&3BlockE&7]'
     permissions:
     - modifyworld.*
+  BlockD:
+    prefix: '&7[&6BlockD&7]'
+    inheritance:
+    - BlockE
+    permissions:
+    - modifyworld.*CHANGE
+  BlockC:
+    prefix: '&7[&eBlockC&7]'
+    inheritance:
+    - BlockD
+    permissions:
+    - modifyworld.*CHANGE
+  BlockB:
+    prefix: '&7[&dBlockB&7]'
+    inheritance:
+    - BlockC
+    permissions:
+    - modifyworld.*CHANGE
+  BlockA:
+    prefix: '&7[&4BlockA&7]'
+    inheritance:
+    - BlockB
+    permissions:
+    - modifyworld.*CHANGE
+  ELITEmaybesomethingDIFFERENT:
+    prefix: '&7[&aCHANGEME&7]'
+    inheritance:
+    - BlockA
+    permissions:
+    - modifyworld.&CHANGE
+  Free:
+    prefix: '&7[&5FREE&7]'
+    inheritance:
+    - ELITESOMETHINGCHANGE
+    permissions:
+    - modifyworld.*change
