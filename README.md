@@ -12,15 +12,17 @@ Set up HomeSpawnPlus -- limits, warm ups, cool downs [HomeSpawnPlus currently er
 PermissionsEX 
 
 VirtualChest Plugin -- Only able to open it in the shop areas
-  And you have to buy it first
+  - And you have to buy it first
 
 
 General Prison To Do
-Set up different ranks
-Block A - E, 'Elite'... etc.
+
+  - Set up different ranks
+  - Block A - E, 'Elite'... etc.
 
 Cells
-Possibly a shared cell area -- and then entrances to the different blocks that only correct levels can get in to
+  - Possibly a shared cell area
+      - and then entrances to the different blocks that only correct levels can get in to
 
 Blocks
 Block E - Starting Block
