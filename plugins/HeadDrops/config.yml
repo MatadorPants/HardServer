@@ -1,0 +1,12 @@
+hostile: 5
+player: 25
+ironanddiamond: true
+axeenabled: true
+zombiedrop: true
+skeletondrop: true
+creeperdrop: true
+playerdrop: true
+dropBlank: false
+permissionCheckMob: false
+permissionCheckPlayer: false
+checkForUpdates: true

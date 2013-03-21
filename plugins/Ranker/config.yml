@@ -1,0 +1,127 @@
+general:
+  chat: false
+  debug: false
+  operator: false
+mysql:
+  enable: false
+  ip: 127.0.0.1
+  username: root
+  password: password
+  port: 3306
+  database: minecraft
+  table: ranker
+  update: 45
+  keepalive: true
+autorank:
+  world:
+    Peon:
+      rankupmessage1: '&8--------------------------------------------'
+      rankupmessage2: ' You earned Peon rank!'
+      rankupmessage3: '&8--------------------------------------------'
+      rankdownmessage1: '&8--------------------------------------------'
+      rankdownmessage2: ' You ranked down to Peon rank!'
+      rankdownmessage3: '&8--------------------------------------------'
+      rankupcommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankupcommand2: server:/perm reload
+      rankupcommand3: server:/give {PLAYER} wood 100
+      rankupcommand4: server:/give {PLAYER} dirt 100
+      rankdowncommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankdowncommand2: server:/perm reload
+      rankdowncommand3: server:/give {PLAYER} wood 1
+      rankdowncommand4: server:/give {PLAYER} 292 1
+      rewardinfo: '100 stacks of wood, dirt, and some new commands!'
+      requirement: money=0
+    Citizen:
+      rankupcommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankupcommand2: server:/perm reload
+      rankupcommand3: server:/give {PLAYER} wood 100
+      rankupcommand4: server:/give {PLAYER} stone 100
+      rankupmessage1: '&8--------------------------------------------'
+      rankupmessage2: ' You earned Citizen rank!'
+      rankupmessage3: '&8--------------------------------------------'
+      rankdownmessage1: '&8--------------------------------------------'
+      rankdownmessage2: ' You ranked down to Citizen rank!'
+      rankdownmessage3: '&8--------------------------------------------'
+      rankdowncommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankdowncommand2: server:/perm reload
+      rankdowncommand3: server:/give {PLAYER} wood 1
+      rankdowncommand4: server:/give {PLAYER} dirt 1
+      requirement: money=1000
+    Recruit:
+      requirement: money=2000
+      rankupcommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankupcommand2: server:/perm reload
+      rankupcommand3: server:/give {PLAYER} wood 100
+      rankupcommand4: server:/give {PLAYER} stone 100
+      rankupcommand5: server:/give {PLAYER} stonesword 1
+      rankupmessage1: '&8--------------------------------------------'
+      rankupmessage2: ' You earned Recruit rank!'
+      rankupmessage3: '&8--------------------------------------------'
+      rankdownmessage1: '&8--------------------------------------------'
+      rankdownmessage2: ' You ranked down to Recruit rank!'
+      rankdownmessage3: '&8--------------------------------------------'
+      rankdowncommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankdowncommand2: server:/perm reload
+      rankdowncommand3: server:/give {PLAYER} wood 1
+      rankdowncommand4: server:/give {PLAYER} dirt 1
+  world_the_end:
+    Peon:
+      rankupmessage1: '&8--------------------------------------------'
+      rankupmessage2: ' You earned Peon rank!'
+      rankupmessage3: '&8--------------------------------------------'
+      rankdownmessage1: '&8--------------------------------------------'
+      rankdownmessage2: ' You ranked down to Peon rank!'
+      rankdownmessage3: '&8--------------------------------------------'
+      rankupcommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankupcommand2: server:/perm reload
+      rankupcommand3: server:/give {PLAYER} wood 100
+      rankupcommand4: server:/give {PLAYER} dirt 100
+      rankdowncommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankdowncommand2: server:/perm reload
+      rankdowncommand3: server:/give {PLAYER} wood 1
+      rankdowncommand4: server:/give {PLAYER} dirt 1
+      rewardinfo: '100 stacks of wood, dirt, and some new commands!'
+      requirement: money=0
+    Citizen:
+      rankupcommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankupcommand2: server:/perm reload
+      rankupcommand3: server:/give {PLAYER} wood 100
+      rankupcommand4: server:/give {PLAYER} stone 100
+      rankupmessage1: '&8--------------------------------------------'
+      rankupmessage2: ' You earned Citizen rank!'
+      rankupmessage3: '&8--------------------------------------------'
+      rankdownmessage1: '&8--------------------------------------------'
+      rankdownmessage2: ' You ranked down to Citizen rank!'
+      rankdownmessage3: '&8--------------------------------------------'
+      rankdowncommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankdowncommand2: server:/perm reload
+      rankdowncommand3: server:/give {PLAYER} wood 1
+      rankdowncommand4: server:/give {PLAYER} dirt 1
+      requirement: money=1000
+    King:
+      requirement: money=2000
+      rankupcommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankupcommand2: server:/perm reload
+      rankupcommand3: server:/give {PLAYER} wood 100
+      rankupcommand4: server:/give {PLAYER} stone 100
+      rankupcommand5: server:/give {PLAYER} stonesword 1
+      rankupmessage1: '&8--------------------------------------------'
+      rankupmessage2: ' You earned King rank!'
+      rankupmessage3: '&8--------------------------------------------'
+      rankdownmessage1: '&8--------------------------------------------'
+      rankdownmessage2: ' You ranked down to King rank!'
+      rankdownmessage3: '&8--------------------------------------------'
+      rankdowncommand1: server:/perm player setgroup {PLAYER} {RANK}
+      rankdowncommand2: server:/perm reload
+      rankdowncommand3: server:/give {PLAYER} wood 50
+      rankdowncommand4: server:/give {PLAYER} dirt 50
+stats:
+  line1: '&8--------------------------------------------'
+  line2: ' &3{RANK} &2{PLAYER}'
+  line3: '&6 {PVP} &aplayers killed!'
+  line4: ' &6{PVE} &amonsters/animals killed.'
+  line5: ' &6{TIME} &aminutes played.'
+  line6: ' &6${MONEY} &ain wealth.'
+  line7: '&8--------------------------------------------'
+chatformat:
+  Peon: '&a{RANK} {PLAYER}&3: &9'

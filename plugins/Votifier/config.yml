@@ -1,0 +1,4 @@
+host: 192.95.22.217
+port: 8192
+debug: false
+listener_folder: plugins/Votifier/listeners
