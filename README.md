@@ -24,11 +24,11 @@ Possibly a shared cell area -- and then entrances to the different blocks that o
 
 Blocks
 Block E - Starting Block
-  Trees
-  Some sort of basic mine (most commonly stone with coal and rare iron)
-  Fishing
-  Shop
-  Public Crafting/Smelting
+  - Trees
+  - Some sort of basic mine (most commonly stone with coal and rare iron)
+  - Fishing
+  - Shop
+  - Public Crafting/Smelting
   
 Block D
 
